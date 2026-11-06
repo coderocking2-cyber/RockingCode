@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Rocking AI Code — Live 1-on-1 Coding & AI Lessons for Kids</title>
+<meta name="description" content="Interactive 1-on-1 live coding and AI lessons for kids aged 8–12. Book a free session with Rocking AI Code.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;600;700;800&family=Nunito:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ===================== NAVBAR ===================== -->
+<header class="navbar">
+  <div class="nav-inner">
+    <a href="#home" class="logo">
+      <span class="logo-badge">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+          <rect x="3" y="6" width="18" height="13" rx="4" fill="white"/>
+          <circle cx="8.5" cy="12.5" r="1.6" fill="#2E7DFF"/>
+          <circle cx="15.5" cy="12.5" r="1.6" fill="#8B5CF6"/>
+          <rect x="10" y="2" width="4" height="4" rx="1" fill="white"/>
+          <rect x="1" y="10" width="2" height="4" rx="1" fill="white"/>
+          <rect x="21" y="10" width="2" height="4" rx="1" fill="white"/>
+        </svg>
+      </span>
+      Rocking AI Code
+    </a>
+    <nav class="nav-links" id="navLinks">
+      <a href="#home">Home</a>
+      <a href="#curriculum">What Kids Learn</a>
+      <a href="#projects">Student Projects</a>
+      <a href="#booking" class="nav-cta">Book Session</a>
+    </nav>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><line x1="4" y1="7" x2="20" y2="7"/><line x1="4" y1="12" x2="20" y2="12"/><line x1="4" y1="17" x2="20" y2="17"/></svg>
+    </button>
+  </div>
+</header>
+
+<!-- ===================== HERO ===================== -->
+<section class="hero" id="home">
+  <svg class="blob" style="top:-120px; left:-140px; width:420px; opacity:.5;" viewBox="0 0 200 200"><path fill="#DCE9FF" d="M45,-58.6C58.4,-49.6,69.3,-35.6,73.6,-19.6C77.9,-3.6,75.5,14.5,67.2,29.4C58.9,44.3,44.7,56.1,28.6,63.3C12.5,70.6,-5.5,73.3,-22.1,68.9C-38.7,64.5,-53.9,52.9,-63.1,37.8C-72.3,22.7,-75.5,4,-71.6,-12.8C-67.7,-29.6,-56.7,-44.5,-42.7,-53.6C-28.7,-62.8,-14.3,-66.2,1.6,-68.4C17.6,-70.6,35.6,-67.6,45,-58.6Z" transform="translate(100 100)"/></svg>
+  <svg class="blob" style="bottom:-160px; right:-160px; width:460px; opacity:.45;" viewBox="0 0 200 200"><path fill="#FFE8C2" d="M39.5,-51.6C51.4,-42.6,61.4,-30.4,65.9,-16.1C70.4,-1.8,69.4,14.6,62.4,28.1C55.4,41.6,42.4,52.2,27.7,59.3C13,66.4,-3.4,70,-19.4,66.6C-35.4,63.2,-51,52.8,-60.6,38.5C-70.2,24.2,-73.8,6,-70.7,-10.7C-67.6,-27.4,-57.8,-42.6,-44.5,-51.7C-31.2,-60.8,-15.6,-63.8,-0.2,-63.5C15.2,-63.2,30.4,-59.6,39.5,-51.6Z" transform="translate(100 100)"/></svg>
+
+  <div class="hero-inner">
+    <div>
+      <span class="eyebrow"><span class="dot"></span> Live 1-on-1 sessions · Ages 8–12</span>
+      <h1>Unleash Your Child's <span class="hl">Tech Genius</span> with Rocking AI Code!</h1>
+      <p class="hero-sub">Interactive 1-on-1 live coding & AI lessons for kids aged 8–12 — real mentors, real projects, real confidence.</p>
+      <div class="hero-ctas">
+        <a href="#booking" class="btn-primary" id="heroCta">
+          Book Your Free Live Session
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </a>
+        <a href="#curriculum" class="btn-secondary">See What They'll Build</a>
+      </div>
+      <div class="hero-trust">
+        <span class="trust-item">
+          <svg viewBox="0 0 24 24" fill="none" stroke="#22DDB0" stroke-width="2.6" stroke-linecap="round"><path d="M20 6L9 17l-5-5"/></svg>
+          100% live, 1-on-1
+        </span>
+        <span class="trust-item">
+          <svg viewBox="0 0 24 24" fill="none" stroke="#22DDB0" stroke-width="2.6" stroke-linecap="round"><path d="M20 6L9 17l-5-5"/></svg>
+          Certified kid-safe mentors
+        </span>
+        <span class="trust-item">
+          <svg viewBox="0 0 24 24" fill="none" stroke="#22DDB0" stroke-width="2.6" stroke-linecap="round"><path d="M20 6L9 17l-5-5"/></svg>
+          No experience needed
+        </span>
+      </div>
+    </div>
+
+    <div class="hero-visual">
+      <div class="mascot-card float-slow">
+        <svg viewBox="0 0 400 400" width="100%" height="100%">
+          <ellipse cx="200" cy="360" rx="120" ry="18" fill="#1B2140" opacity="0.06"/>
+          <!-- body -->
+          <rect x="120" y="150" width="160" height="140" rx="34" fill="url(#bodyGrad)"/>
+          <defs>
+            <linearGradient id="bodyGrad" x1="0" y1="0" x2="1" y2="1">
+              <stop offset="0%" stop-color="#2E7DFF"/>
+              <stop offset="100%" stop-color="#8B5CF6"/>
+            </linearGradient>
+          </defs>
+          <!-- screen face -->
+          <rect x="145" y="175" width="110" height="80" rx="18" fill="#0F1638"/>
+          <circle cx="178" cy="215" r="9" fill="#22DDB0"/>
+          <circle cx="222" cy="215" r="9" fill="#22DDB0"/>
+          <path d="M178 236 Q200 250 222 236" stroke="#FFB627" stroke-width="5" fill="none" stroke-linecap="round"/>
+          <!-- antenna -->
+          <line x1="200" y1="150" x2="200" y2="118" stroke="#FFB627" stroke-width="6" stroke-linecap="round"/>
+          <circle cx="200" cy="108" r="12" fill="#FFB627" class="float-fast" style="transform-origin:200px 108px;"/>
+          <!-- arms -->
+          <rect x="90" y="185" width="34" height="16" rx="8" fill="#22DDB0"/>
+          <rect x="276" y="185" width="34" height="16" rx="8" fill="#22DDB0"/>
+          <!-- legs -->
+          <rect x="150" y="290" width="26" height="46" rx="10" fill="#1657D6"/>
+          <rect x="224" y="290" width="26" height="46" rx="10" fill="#1657D6"/>
+        </svg>
+
+        <div class="chip c1 float-med">🎮 Block Coding</div>
+        <div class="chip c2 float-fast">🤖 Face Tracking AI</div>
+        <div class="chip c3 float-slow">🎤 Voice Bots</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== CURRICULUM ===================== -->
+<section class="section bg-alt" id="curriculum">
+  <div class="section-head">
+    <span class="section-eyebrow">What Kids Learn</span>
+    <h2>A curriculum built for curious minds, ages 8–12</h2>
+    <p>Every lesson is 1-on-1, hands-on, and paced to your child — no crowded classrooms, no falling behind.</p>
+  </div>
+
+  <div class="curriculum-grid">
+    <div class="skill-card blue">
+      <div class="skill-icon">
+        <img src="mblock.jpg" alt="mBlock Programming" style="width: 100%; height: 100%; object-fit: contain;">
+        <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="14" rx="2"/><path d="M7 8h6M7 12h10M7 16h4"/></svg>
+      </div>
+      <h3>mBlock Programming</h3>
+      <p>Logic building through drag-and-drop block coding — kids design animations, interactive games, and their own stories.</p>
+      <div class="tag-row">
+        <span class="tag">Logic Building</span>
+        <span class="tag">Animations</span>
+        <span class="tag">Game Design</span>
+        <span class="tag">Storytelling</span>
+      </div>
+    </div>
+
+    <div class="skill-card purple">
+      <div class="skill-icon">
+                <img src="pictoblox.jpg" alt="mBlock Programming" style="width: 100%; height: 100%; object-fit: contain;">
+
+        <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M12 2v3M12 19v3M4.2 4.2l2.1 2.1M17.7 17.7l2.1 2.1M2 12h3M19 12h3M4.2 19.8l2.1-2.1M17.7 6.3l2.1-2.1"/></svg>
+      </div>
+      <h3>AI with PictoBlox</h3>
+      <p>Real artificial intelligence basics — training machine learning models, computer vision, face & voice recognition projects.</p>
+      <div class="tag-row">
+        <span class="tag">Machine Learning</span>
+        <span class="tag">Computer Vision</span>
+        <span class="tag">Voice Recognition</span>
+        <span class="tag">Smart Tech</span>
+      </div>
+    </div>
+
+    <div class="skill-card mint">
+      <div class="skill-icon">
+                        <img src="mentor.jpg" alt="mBlock Programming" style="width: 100%; height: 100%; object-fit: contain;">
+
+        <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a5 5 0 0 1 5 5v3a5 5 0 0 1-10 0V7a5 5 0 0 1 5-5Z"/><path d="M19 10v1a7 7 0 0 1-14 0v-1M12 18v4M8 22h8"/></svg>
+      </div>
+      <h3>1-on-1 Mentoring</h3>
+      <p>A dedicated mentor who adjusts pace to your child, gives instant help, and turns "I'm stuck" into "I figured it out!"</p>
+      <div class="tag-row">
+        <span class="tag">Custom Pace</span>
+        <span class="tag">Instant Help</span>
+        <span class="tag">Guided Practice</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== PROJECTS ===================== -->
+<section class="section" id="projects">
+  <div class="section-head">
+    <span class="section-eyebrow">Student Projects</span>
+    <h2>What kids actually build here</h2>
+    <p>Real, working projects your child can show off — not worksheets.</p>
+  </div>
+
+  <div class="projects-grid">
+  <!-- Card 1: AI Face Tracker -->
+  <div class="project-card">
+    <div class="project-thumb p1">
+      <img src="face.jpg" alt="AI Face Tracker Project" class="project-img">
+    </div>
+    <div class="project-body">
+      <h4>AI Face Tracker</h4>
+      <p>Trains a model to detect and follow faces in real time.</p>
+    </div>
+  </div>
+
+  <!-- Card 2: Voice-Controlled Mini Bot -->
+  <div class="project-card">
+    <div class="project-thumb p2">
+      <img src="voice.jpg" alt="Voice-Controlled Mini Bot" class="project-img">
+    </div>
+    <div class="project-body">
+      <h4>Voice-Controlled Mini Bot</h4>
+      <p>Kids command an on-screen bot to move using their voice.</p>
+    </div>
+  </div>
+
+  <!-- Card 3: Interactive Animated Story -->
+  <div class="project-card">
+    <div class="project-thumb p3">
+      <img src="projects.gif" alt="Interactive Animated Story" class="project-img">
+    </div>
+    <div class="project-body">
+      <h4>Interactive Animated Story</h4>
+      <p>A branching story where the reader's choices change the plot.</p>
+    </div>
+  </div>
+
+  <!-- Card 4: Projects with AI / Hand Gesture -->
+  <div class="project-card">
+    <div class="project-thumb p4">
+      <img src="aiprojects2.jpg" alt="AI Hand Gesture Game" class="project-img">
+    </div>
+    <div class="project-body">
+      <h4>Projects with AI</h4>
+      <p>An AI opponent that reads hand gestures through the camera.</p>
+    </div>
+  </div>
+</div>
+<!-- ===================== BOOKING ===================== -->
+<section class="section bg-alt" id="booking">
+  <div class="section-head">
+    <span class="section-eyebrow">Book a Session</span>
+    <h2>Schedule Your Child's Live Session</h2>
+    <p>Enter your details below to reveal available time slots and receive session reminders.</p>
+  </div>
+
+  <div class="booking-shell">
+    <div class="steps-track">
+      <div class="step-dot active" id="stepDot1">
+        <span class="step-num">1</span><span class="step-label">Your details</span>
+      </div>
+      <div class="step-line"></div>
+      <div class="step-dot" id="stepDot2">
+        <span class="step-num">2</span><span class="step-label">Pick a time</span>
+      </div>
+    </div>
+
+    <!-- STEP 1 -->
+    <form class="step1" id="bookingForm" novalidate>
+      <div class="form-grid">
+        <div class="field full">
+          <label for="studentName">Student's Name</label>
+          <input type="text" id="studentName" name="studentName" placeholder="e.g. Maya" autocomplete="off">
+          <span class="error-msg" id="err-studentName"></span>
+        </div>
+        <div class="field">
+          <label for="parentName">Parent's Name</label>
+          <input type="text" id="parentName" name="parentName" placeholder="e.g. Alex Johnson" autocomplete="name">
+          <span class="error-msg" id="err-parentName"></span>
+        </div>
+        <div class="field">
+          <label for="parentEmail">Email Address</label>
+          <input type="email" id="parentEmail" name="parentEmail" placeholder="you@example.com" autocomplete="email">
+          <span class="error-msg" id="err-parentEmail"></span>
+        </div>
+        <div class="field">
+          <label for="parentPhone">email for Reminders</label>
+          <input type="tel" id="parentPhone" name="parentPhone" placeholder="(555) 123-4567" autocomplete="tel">
+          <span class="error-msg" id="err-parentPhone"></span>
+        </div>
+        <div class="field">
+          <label for="studentAge">Student's Age</label>
+          <select id="studentAge" name="studentAge">
+            <option value="">Select age</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+            <option value="11">11</option>
+            <option value="12">12</option>
+          </select>
+          <span class="error-msg" id="err-studentAge"></span>
+        </div>
+      </div>
+      <button type="submit" class="btn-block">Continue to Choose Time Slot</button>
+    </form>
+
+    <!-- STEP 2 -->
+    <div class="step2" id="step2">
+      <div class="booking-summary">
+        <span id="summaryText">Booking for Maya · Slots below reflect your time zone</span>
+        <a href="#" class="edit-link" id="editDetails">Edit details</a>
+      </div>
+      <div id="calendlyContainer">
+        <div class="calendly-loading">Loading available time slots…</div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="support-section" id="support">
+  <div class="support-container">
+    <div class="support-header">
+      <h2>Have Questions? Contact Support</h2>
+      <p>Need help with a session, curriculum details, or student enrollment? Send us a message below.</p>
+    </div>
+
+    <!-- Replace 'your-email@example.com' with your receiving email address -->
+<form class="support-form" action="https://formsubmit.co/coderocking2@gmail.com" method="POST">      <!-- Prevents spam / captcha verification page if enabled -->
+      <input type="hidden" name="_captcha" value="false">
+      <!-- Email Subject Line -->
+      <input type="hidden" name="_subject" value="New Support Query - Rocking AI Code">
+
+      <div class="form-group">
+        <label for="name">Parent / Student Name</label>
+        <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+      </div>
+
+      <div class="form-group">
+        <label for="email">Email Address</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+      </div>
+
+      <div class="form-group">
+        <label for="topic">Support Topic</label>
+        <select id="topic" name="topic" required>
+          <option value="" disabled selected>Select a topic</option>
+          <option value="Enrollment">Session Enrollment / Scheduling</option>
+          <option value="Curriculum">Curriculum & Course Questions</option>
+          <option value="Student Support">Current Student Support</option>
+          <option value="Other">General Inquiry</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="4" placeholder="How can we help you?" required></textarea>
+      </div>
+
+      <button type="submit" class="submit-btn">Send Message</button>
+    </form>
+  </div>
+</section>
+
+<!-- ===================== FOOTER ===================== -->
+<footer>
+  <div class="footer-inner">
+    <div class="footer-logo">
+      <span class="logo-badge" style="width:34px;height:34px;">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
+          <rect x="3" y="6" width="18" height="13" rx="4" fill="white"/>
+          <circle cx="8.5" cy="12.5" r="1.6" fill="#2E7DFF"/>
+          <circle cx="15.5" cy="12.5" r="1.6" fill="#8B5CF6"/>
+        </svg>
+      </span>
+      Rocking AI Code
+    </div>
+    <nav class="footer-links">
+      <a href="#home">Home</a>
+      <a href="#curriculum">What Kids Learn</a>
+      <a href="#projects">Student Projects</a>
+      <a href="#booking">Book Session</a>
+    </nav>
+  </div>
+  <div class="footer-bottom">© 2026 Rocking AI Code. Live 1-on-1 coding & AI lessons for kids 8–12.</div>
+  
+  <script src="https://assets.calendly.com/assets/external/widget.js" async></script>
+
+  <script src="script.js"></script>
+</footer>
+
+
+</body>
+</html>
